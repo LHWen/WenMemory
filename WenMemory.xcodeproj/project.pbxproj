@@ -14,6 +14,7 @@
 		61D69FE521573ACF00F98A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D69FE321573ACF00F98A3E /* LaunchScreen.storyboard */; };
 		61D69FE821573ACF00F98A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D69FE721573ACF00F98A3E /* main.m */; };
 		61D69FF221573ACF00F98A3E /* WenMemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D69FF121573ACF00F98A3E /* WenMemoryUITests.m */; };
+		61D6A00121573CC700F98A3E /* CGDDispatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D6A00021573CC700F98A3E /* CGDDispatchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		61D69FED21573ACF00F98A3E /* WenMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WenMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D69FF121573ACF00F98A3E /* WenMemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenMemoryUITests.m; sourceTree = "<group>"; };
 		61D69FF321573ACF00F98A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D69FFF21573CC700F98A3E /* CGDDispatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDDispatchViewController.h; sourceTree = "<group>"; };
+		61D6A00021573CC700F98A3E /* CGDDispatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDDispatchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				61D69FD921573ACE00F98A3E /* AppDelegate.m */,
 				61D69FDB21573ACE00F98A3E /* ViewController.h */,
 				61D69FDC21573ACE00F98A3E /* ViewController.m */,
+				61D69FFF21573CC700F98A3E /* CGDDispatchViewController.h */,
+				61D6A00021573CC700F98A3E /* CGDDispatchViewController.m */,
 				61D69FDE21573ACE00F98A3E /* Main.storyboard */,
 				61D69FE121573ACF00F98A3E /* Assets.xcassets */,
 				61D69FE321573ACF00F98A3E /* LaunchScreen.storyboard */,
@@ -205,6 +210,7 @@
 			files = (
 				61D69FDD21573ACE00F98A3E /* ViewController.m in Sources */,
 				61D69FE821573ACF00F98A3E /* main.m in Sources */,
+				61D6A00121573CC700F98A3E /* CGDDispatchViewController.m in Sources */,
 				61D69FDA21573ACE00F98A3E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
